@@ -118,6 +118,7 @@ const resetGame = () => {
   selectedScore = 501;
   doubleOut = true;
   legsToWin = 1;
+  cancelFunc();
   document.getElementById("settings").classList.remove("hidden");
   document.getElementById("game").classList.add("hidden");
   document.getElementById("winning-stats").classList.add("hidden");
