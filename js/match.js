@@ -121,7 +121,6 @@ const resetGame = () => {
   document.getElementById("settings").classList.remove("hidden");
   document.getElementById("game").classList.add("hidden");
   document.getElementById("winning-stats").classList.add("hidden");
-  location.reload();
 };
 
 // Handle starting score selection
