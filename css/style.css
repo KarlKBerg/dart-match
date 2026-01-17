@@ -29,6 +29,19 @@ body {
   color: var(--accent-primary);
   font-weight: 500;
 }
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.8rem;
+}
+.see-all-btn {
+  display: flex;
+  gap: 0.8rem;
+}
+.see-all-btn:hover {
+  color: var(--accent-primary);
+}
 /* ==== HEADER ==== */
 header {
   display: flex;
