@@ -456,7 +456,7 @@ function displayWinningPage() {
     playerDiv.appendChild(dartsThrown);
     playerDiv.appendChild(highestScore);
   });
-  document.getElementById("0").style.backgroundColor = "green";
+  document.getElementById("0").style.backgroundColor = "#d4af37";
   document.getElementById("game").classList.add("hidden");
   document.getElementById("winning-stats").classList.remove("hidden");
 }
@@ -465,7 +465,7 @@ displayCurrentPlayerStats();
 function playerWon() {
   displayWinningPage();
   document.getElementById("keypad").classList.add("hidden");
-  document.getElementById("new-game-btn").style.backgroundColor = "green";
+  document.getElementById("new-game-btn").style.backgroundColor = "#d4af37";
 }
 
 // Move current player
