@@ -22,6 +22,13 @@ body {
   margin: 0 auto;
   padding: 2.4rem 0;
 }
+/* RE-USE CLASSES */
+.heading {
+  font-size: 2.4rem;
+  font-family: var(--heading-font);
+  color: var(--accent-primary);
+  font-weight: 500;
+}
 /* ==== HEADER ==== */
 header {
   display: flex;
@@ -51,8 +58,12 @@ li:hover,
 }
 /* ==== MAIN SECTION ==== */
 #main-section {
-  margin-top: 1.6rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
 }
+/* QUOTE SECTION */
 #quote {
   width: 60%;
   margin: 0 auto;
@@ -75,4 +86,26 @@ li:hover,
   color: var(--accent-primary);
   font-size: 1.8rem;
   text-align: right;
+}
+/* GAME SECTION */
+.games-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.2rem;
+  margin-top: 2.4rem;
+}
+.game {
+  width: 25rem;
+  height: 15rem;
+  background: var(--cards-bcg);
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.2rem;
+  text-align: center;
+}
+.game:hover {
+  background-color: var(--panels);
 }
