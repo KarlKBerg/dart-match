@@ -51,6 +51,10 @@ function showErrorMessage(message) {
   errorHeading.textContent = message;
 
   messageContainer.appendChild(errorHeading);
+
+  setTimeout(function () {
+    messageContainer.remove();
+  }, 3000);
 }
 
 function showSuccessMessage(message) {
@@ -60,8 +64,6 @@ function showSuccessMessage(message) {
   const successHeading = document.createElement("h2");
   successHeading.classList.add("success");
   successHeading.textContent = message;
-
-  messageContainer.appendChild(successHeading);
 }
 
 // Handle number of players button clicks
