@@ -42,11 +42,10 @@ header nav a:hover {
   font-weight: 600;
 }
 /* ==== HERO ==== */
-
 .hero-container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 5.6rem;
   align-items: center;
 }
 .catchphrase {
@@ -90,7 +89,7 @@ header nav a:hover {
 /* Visual example */
 .hero-visual-example-container {
   border: 1px solid var(--text-color-muffled);
-  border-radius: 0.8rem;
+  border-radius: 1.6rem;
   min-width: 80rem;
 }
 .visual-example-header {
@@ -115,7 +114,7 @@ header nav a:hover {
   justify-content: space-between;
 }
 .player:first-child {
-  border-bottom-left-radius: 0.8rem;
+  border-bottom-left-radius: 1.6rem;
 }
 .player {
   flex-grow: 1;
@@ -169,4 +168,74 @@ header nav a:hover {
 .section-heading {
   color: var(--accent-primary);
   font-weight: 700;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+  align-items: center;
+}
+.section-header span {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.section-header p {
+  width: 40ch;
+  color: var(--text-color-muffled);
+  font-size: 1.6rem;
+}
+.card-container {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 4rem;
+}
+.card {
+  flex-grow: 1;
+  background-color: var(--card-bcg);
+  padding: 4rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-radius: 1.6rem;
+}
+.selected {
+  border: 2px solid var(--accent-primary);
+  border-radius: 1.6rem;
+  background-color: #10231d;
+}
+.green-outer {
+  border: 3px solid var(--accent-primary);
+}
+.green-inner {
+  background-color: var(--accent-primary);
+}
+.unselected-outer {
+  border: 1px solid var(--text-color-muffled);
+}
+.unselected-inner {
+  background-color: var(--text-color-muffled);
+}
+.outer-ring {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-ring {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+.card span {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.card p {
+  width: 25ch;
+  color: var(--text-color-muffled);
+}
+.card:hover {
+  cursor: pointer;
 }
