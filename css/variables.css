@@ -5,6 +5,12 @@
   /* ==== COLORS ==== */
   --main-bcg: #05070b;
   --card-bcg: #101620;
+  --text-color: #f5f7fa;
+  --text-color-muffled: #1c2230;
   /* Accents */
   --accent-primary: #00e5a0;
+  --accent-secondary: #0e2019;
+
+  --accent-primary-hover: #00ffb3;
+  --text-color-hover: #7dd3fc;
 }
