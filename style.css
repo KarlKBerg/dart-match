@@ -4,7 +4,9 @@ body {
   background-color: var(--main-bcg);
   color: var(--text-color);
   font-family: var(--body-font);
+  font-size: 1.4rem;
 }
+/* ==== HEADER ==== */
 header {
   font-size: 1.6rem;
   display: flex;
@@ -38,4 +40,133 @@ header nav a:hover {
 .header-cta {
   padding: 1.2rem 3.2rem;
   font-weight: 600;
+}
+/* ==== HERO ==== */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+.catchphrase {
+  color: var(--accent-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 600;
+}
+.catchphrase i {
+  font-size: 0.8rem;
+}
+.hero-container h1 {
+  font-size: 4.8rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.hero-container p {
+  color: var(--text-color-muffled);
+  font-size: 1.8rem;
+  width: 50ch;
+  text-align: center;
+  font-weight: 500;
+}
+.cta-container {
+  display: flex;
+  gap: 2.4rem;
+}
+.hero-cta {
+  padding: 1.4rem 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.secondary-cta {
+  border: 1px solid var(--text-color-muffled);
+  border-radius: 0.8rem;
+}
+.secondary-cta:hover {
+  background-color: var(--card-bcg);
+}
+/* Visual example */
+.hero-visual-example-container {
+  border: 1px solid var(--text-color-muffled);
+  border-radius: 0.8rem;
+  min-width: 80rem;
+}
+.visual-example-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--text-color-muffled);
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--text-color-muffled);
+  padding: 0.8rem 1.6rem;
+}
+.header-object {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.header-object i {
+  font-size: 0.4rem;
+}
+.players-container {
+  display: flex;
+  justify-content: space-between;
+}
+.player:first-child {
+  border-bottom-left-radius: 0.8rem;
+}
+.player {
+  flex-grow: 1;
+  padding: 2.4rem;
+  border-left: 1px solid var(--text-color-muffled);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player span {
+  font-weight: 600;
+}
+.player h2 {
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 1.2rem;
+}
+#sp {
+  color: #ff3b5c;
+}
+#tp {
+  color: #7dd3fc;
+}
+/* ==== INFO SPACER ==== */
+#info-spacer {
+  border-top: 1px solid var(--text-color-muffled);
+  border-bottom: 1px solid var(--text-color-muffled);
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  padding: 3.2rem 0;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+.info-container h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.info-container span {
+  color: var(--text-color-muffled);
+}
+.section-heading {
+  color: var(--accent-primary);
+  font-weight: 700;
 }
