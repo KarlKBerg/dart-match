@@ -1,0 +1,9 @@
+.cta {
+  background-color: var(--accent-primary);
+  border-radius: 0.8rem;
+  color: black;
+}
+.cta:hover {
+  cursor: pointer;
+  background-color: var(--accent-primary-hover);
+}
