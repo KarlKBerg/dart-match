@@ -1,0 +1,12 @@
+:root {
+  /* ==== FONTS ==== */
+  --heading-font: "Cinzel", serif;
+  --body-font: "Montserrat", sans-serif;
+  /* ==== COLORS ==== */
+  --main-bcg: #0f1115;
+  --card-bcg: #151821;
+
+  --accent-primary: #d4af37;
+  --accent-border: #b8962e;
+  --accent-glow: #e6c75a;
+}
