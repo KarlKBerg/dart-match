@@ -7,3 +7,12 @@
   cursor: pointer;
   background-color: var(--accent-primary-hover);
 }
+.section {
+  margin: 12rem 4rem;
+}
+.active {
+  background-color: #10231d;
+}
+.active h2 {
+  color: var(--accent-primary);
+}
